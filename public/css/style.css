@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  display: -webkit-flex;
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.box1 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  background-color: black;
+  height: 100px;
+}
+.box2 {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+  flex: 2;
+  background-color: red;
+  height: 100px;
+}
